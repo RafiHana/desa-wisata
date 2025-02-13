@@ -60,12 +60,10 @@ Website ini adalah platform untuk mempromosikan Desa Wisata Surodadi. Website in
     ├── package.json         # Dependensi dan skrip proyek
     └── README.md            # Dokumentasi proyek
 
---
---
-### 🤝 Kontributor
+
+## 🤝 Kontributor
 - Rafi Hana - Developer
 
---
 --
 
 ![Home](public/homepage.png)
