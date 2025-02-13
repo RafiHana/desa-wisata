@@ -42,22 +42,24 @@ Website ini adalah platform untuk mempromosikan Desa Wisata Surodadi. Website in
     Buka http://localhost:3000 di browser Anda.
 
 ### Struktur Proyek
-desa-wisata/
-├── public/              # File static seperti gambar dan logo
-├── src/
-│   ├── app/             # Halaman dan layout
-│   │   ├── components/  # Komponen reusable
-│   │   ├── sejarah/     # Halaman Sejarah Desa
-│   │   ├── destinasi/   # Halaman Destinasi Wisata
-│   │   ├── galeri/      # Halaman Galeri
-│   │   ├── contact/     # Halaman Kontak
-│   │   └── page.tsx     # Halaman Home
-│   ├── styles/          # File CSS global
-│   └── utils/           # Utility functions atau konstanta
-├── tailwind.config.ts   # Konfigurasi Tailwind CSS
-├── postcss.config.js    # Konfigurasi PostCSS
-├── package.json         # Dependensi dan skrip proyek
-└── README.md            # Dokumentasi proyek
+
+```plaintext
+    desa-wisata/
+    ├── public/              # File static seperti gambar dan logo
+    ├── src/
+    │   ├── app/             # Halaman dan layout
+    │   │   ├── components/  # Komponen reusable
+    │   │   ├── sejarah/     # Halaman Sejarah Desa
+    │   │   ├── destinasi/   # Halaman Destinasi Wisata
+    │   │   ├── galeri/      # Halaman Galeri
+    │   │   ├── contact/     # Halaman Kontak
+    │   │   └── page.tsx     # Halaman Home
+    │   ├── styles/          # File CSS global
+    │   └── utils/           # Utility functions atau konstanta
+    ├── tailwind.config.ts   # Konfigurasi Tailwind CSS
+    ├── postcss.config.js    # Konfigurasi PostCSS
+    ├── package.json         # Dependensi dan skrip proyek
+    └── README.md            # Dokumentasi proyek
 
 ## 🤝 Kontributor
 - Rafi Hana - Developer
