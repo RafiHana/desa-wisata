@@ -62,4 +62,4 @@ desa-wisata/
 ## 🤝 Kontributor
 - Rafi Hana - Developer
 
-homePage.png
+![Deskripsi Gambar](public/homepage.png)
