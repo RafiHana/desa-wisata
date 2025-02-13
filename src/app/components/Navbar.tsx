@@ -15,8 +15,8 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
       <div className="container mx-auto flex items-center justify-between p-4">
         <div className="flex items-center">
-          <Image src="/Surodadi.png" alt="Logo Desa" width={50} height={50} />
-          <span className="ml-2 text-xl font-bold">Desa Wisata</span>
+          <Image src="/Surodadi.png" alt="Logo Desa" width={50} height={50}/>
+          <span className="ml-2 text-xl font-bold mt-4">Desa Surodadi</span>
         </div>
 
         <button
