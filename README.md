@@ -43,7 +43,6 @@ Website ini adalah platform untuk mempromosikan Desa Wisata Surodadi. Website in
 
 ### Struktur Proyek
 
-```plaintext
     desa-wisata/
     ├── public/              # File static seperti gambar dan logo
     ├── src/
@@ -60,8 +59,9 @@ Website ini adalah platform untuk mempromosikan Desa Wisata Surodadi. Website in
     ├── postcss.config.js    # Konfigurasi PostCSS
     ├── package.json         # Dependensi dan skrip proyek
     └── README.md            # Dokumentasi proyek
-```plaintext
 
+--
+--
 ### 🤝 Kontributor
 - Rafi Hana - Developer
 
