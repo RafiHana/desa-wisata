@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div>
       <Navbar />
-      <section className="container mx-auto p-4">
+      <section className="container mx-auto p-4 pt-20"> 
         <h1 className="text-4xl font-bold text-center my-8">Hubungi Kami</h1>
         <div className="max-w-lg mx-auto bg-white shadow-lg rounded-lg p-6">
           <p className="text-lg text-gray-700 mb-4">

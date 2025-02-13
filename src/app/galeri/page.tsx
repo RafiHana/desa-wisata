@@ -12,7 +12,7 @@ export default function Galeri() {
   return (
     <div>
       <Navbar />
-      <section className="container mx-auto p-4">
+      <section className="container mx-auto p-4 pt-20"> 
         <h1 className="text-4xl font-bold text-center my-8">Galeri</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {images.map((image, index) => (

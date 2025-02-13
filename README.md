@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Desa Wisata Surodadi - Website
 
-## Getting Started
+Website ini adalah platform untuk mempromosikan Desa Wisata Surodadi. Website ini dibangun menggunakan **Next.js** (framework React) dan **Tailwind CSS** untuk styling. Website ini mencakup beberapa halaman, seperti Home, Sejarah Desa, Destinasi Wisata, Galeri, dan Kontak.
 
-First, run the development server:
+## Fitur
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Navbar Responsif**: Navbar yang menyesuaikan tampilan untuk desktop dan mobile.
+- **Halaman Home**: Landing page dengan tampilan menarik dan informasi singkat tentang desa.
+- **Halaman Sejarah**: Menampilkan sejarah desa.
+- **Halaman Destinasi Wisata**: Menampilkan daftar destinasi wisata di desa.
+- **Halaman Galeri**: Menampilkan foto-foto desa dalam grid responsif.
+- **Halaman Kontak**: Menampilkan informasi kontak desa.
+- **Scroll Halus**: Pengalaman scroll yang halus di seluruh halaman.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Teknologi yang Digunakan
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: Framework React untuk server-side rendering dan routing.
+- **Tailwind CSS**: Utility-first CSS framework untuk styling.
+- **Framer Motion**: Library untuk animasi dan scroll halus.
+- **TypeScript**: Untuk penulisan kode yang lebih aman dan terstruktur.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Cara Instalasi
 
-## Learn More
+### Prasyarat
 
-To learn more about Next.js, take a look at the following resources:
+- **Node.js**: Pastikan Node.js terinstal di komputer Anda. Anda bisa mengunduhnya dari [sini](https://nodejs.org/).
+- **npm**: Package manager untuk menginstal dependensi.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Langkah-langkah
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone Repository**:
+   git clone https://github.com/RafiHana/desa-wisata.git
+   cd repo-name
 
-## Deploy on Vercel
+2. **Instal Dependensi**
+    npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Jalankan Proyek**
+    npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Buka di Browser**
+    Buka http://localhost:3000 di browser Anda.
+
+### Struktur Proyek
+desa-wisata/
+├── public/              # File static seperti gambar dan logo
+├── src/
+│   ├── app/             # Halaman dan layout
+│   │   ├── components/  # Komponen reusable
+│   │   ├── sejarah/     # Halaman Sejarah Desa
+│   │   ├── destinasi/   # Halaman Destinasi Wisata
+│   │   ├── galeri/      # Halaman Galeri
+│   │   ├── contact/     # Halaman Kontak
+│   │   └── page.tsx     # Halaman Home
+│   ├── styles/          # File CSS global
+│   └── utils/           # Utility functions atau konstanta
+├── tailwind.config.ts   # Konfigurasi Tailwind CSS
+├── postcss.config.js    # Konfigurasi PostCSS
+├── package.json         # Dependensi dan skrip proyek
+└── README.md            # Dokumentasi proyek
+
+## 🤝 Kontributor
+- Rafi Hana - Developer
+
+homePage.png

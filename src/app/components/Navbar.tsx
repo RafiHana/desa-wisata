@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
-      <div className="container mx-auto flex items-center justify-between p-4">
+      <div className="container mx-auto flex items-center justify-between p-1 md:p-1">
         <div className="flex items-center">
           <Image src="/Surodadi.png" alt="Logo Desa" width={50} height={50}/>
           <span className="ml-2 text-xl font-bold mt-4">Desa Surodadi</span>
@@ -42,13 +42,13 @@ const Navbar = () => {
         <div
           className={`${
             isMenuOpen ? 'block' : 'hidden'
-          } md:flex md:items-center md:space-x-4 absolute md:static top-16 left-0 right-0 bg-white shadow-md md:shadow-none p-4 md:p-0`}
+          } md:flex md:items-center md:space-x-10 absolute md:static top-16 left-0 right-0 bg-white shadow-md md:shadow-none p-4 md:p-0`}
         >
-          <Link href="/" className="block hover:text-gray-600 py-2 md:py-0 ml-2 text-xl font-bold">Home</Link>
-          <Link href="/sejarah" className="block hover:text-gray-600 py-2 md:py-0 ml-2 text-xl font-bold">Sejarah Desa</Link>
-          <Link href="/destinasi" className="block hover:text-gray-600 py-2 md:py-0 ml-2 text-xl font-bold">Destinasi Wisata</Link>
-          <Link href="/galeri" className="block hover:text-gray-600 py-2 md:py-0 ml-2 text-xl font-bold">Galeri</Link>
-          <Link href="/contact" className="block hover:text-gray-600 py-2 md:py-0 ml-2 text-xl font-bold">Contact</Link>
+          <Link href="/" className="block hover:text-gray-600 py-2 md:py-0 text-xl font-bold text-left md:text-left"> Home </Link>
+          <Link href="/sejarah" className="block hover:text-gray-600 py-2 md:py-0 text-xl font-bold text-left md:text-right"> Sejarah Desa </Link>
+          <Link href="/destinasi" className="block hover:text-gray-600 py-2 md:py-0 text-xl font-bold text-left md:text-left"> Destinasi Wisata </Link>
+          <Link href="/galeri" className="block hover:text-gray-600 py-2 md:py-0 text-xl font-bold text-left md:text-right"> Galeri </Link>
+          <Link href="/contact" className="block hover:text-gray-600 py-2 md:py-0 text-xl font-bold text-left md:text-left"> Contact </Link>
         </div>
       </div>
     </nav>

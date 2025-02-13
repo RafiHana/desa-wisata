@@ -2,10 +2,10 @@ import Image from 'next/image';
 
 const GallerySection = () => {
   const images = [
-    { src: '/gallery1.jpg', title: 'Pemandangan Alam' },
-    { src: '/gallery2.jpg', title: 'Kegiatan Masyarakat' },
-    { src: '/gallery3.jpg', title: 'Seni dan Budaya' },
-    { src: '/gallery4.jpg', title: 'Wisata Kuliner' },
+    { src: '/image1.jpg', title: 'Perahu Nelayan' },
+    { src: '/image2.jpg', title: 'Tanaman' },
+    { src: '/image3.jpg', title: 'Tumbuhan' },
+    { src: '/image4.jpg', title: 'Wisata Alam' },
   ];
 
   return (
