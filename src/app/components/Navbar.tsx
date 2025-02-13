@@ -44,11 +44,11 @@ const Navbar = () => {
             isMenuOpen ? 'block' : 'hidden'
           } md:flex md:items-center md:space-x-4 absolute md:static top-16 left-0 right-0 bg-white shadow-md md:shadow-none p-4 md:p-0`}
         >
-          <Link href="/" className="block hover:text-gray-600 py-2 md:py-0">Home</Link>
-          <Link href="/sejarah" className="block hover:text-gray-600 py-2 md:py-0">Sejarah Desa</Link>
-          <Link href="/destinasi" className="block hover:text-gray-600 py-2 md:py-0">Destinasi Wisata</Link>
-          <Link href="/galeri" className="block hover:text-gray-600 py-2 md:py-0">Galeri</Link>
-          <Link href="/contact" className="block hover:text-gray-600 py-2 md:py-0">Contact</Link>
+          <Link href="/" className="block hover:text-gray-600 py-2 md:py-0 ml-2 text-xl font-bold">Home</Link>
+          <Link href="/sejarah" className="block hover:text-gray-600 py-2 md:py-0 ml-2 text-xl font-bold">Sejarah Desa</Link>
+          <Link href="/destinasi" className="block hover:text-gray-600 py-2 md:py-0 ml-2 text-xl font-bold">Destinasi Wisata</Link>
+          <Link href="/galeri" className="block hover:text-gray-600 py-2 md:py-0 ml-2 text-xl font-bold">Galeri</Link>
+          <Link href="/contact" className="block hover:text-gray-600 py-2 md:py-0 ml-2 text-xl font-bold">Contact</Link>
         </div>
       </div>
     </nav>
