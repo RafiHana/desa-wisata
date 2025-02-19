@@ -1,4 +1,4 @@
-# Desa Wisata Surodadi - Website
+# Desa Wisata Surodadi
 
 Website ini adalah platform untuk mempromosikan Desa Wisata Surodadi. Website ini dibangun menggunakan **Next.js** (framework React) dan **Tailwind CSS** untuk styling. Website ini mencakup beberapa halaman, seperti Home, Sejarah Desa, Destinasi Wisata, Galeri, dan Kontak.
 

@@ -13,7 +13,9 @@ export default function Galeri() {
     <div>
       <Navbar />
       <section className="container mx-auto p-4 pt-20"> 
-        <h1 className="text-4xl font-bold text-center my-8">Galeri</h1>
+      <h1 className="text-4xl font-bold text-center my-8 bg-gradient-to-r from-blue-300 to-blue-900 bg-clip-text text-transparent animate-gradient">
+          Galeri
+        </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {images.map((image, index) => (
             <div key={index} className="relative">
